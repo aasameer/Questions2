@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
+    >
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="@dimen/btn_question_weidth"
+        android:layout_height="@dimen/btn_question_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:inputType="text"
+        android:text="@string/btn_rate_app_text"
+        android:textColor="@color/btn_text_color"
+        android:textSize="@dimen/Btn_text_size"
+        android:background="@drawable/state_front_btn"
+        />
+
+    <Button
+        android:id="@+id/btnQuesst"
+        android:layout_width="@dimen/btn_question_weidth"
+        android:layout_height="@dimen/btn_question_height"
+        android:layout_above="@+id/btnRate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="372dp"
+        android:layout_marginLeft="372dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="390dp"
+        android:layout_marginRight="390dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/state_front_btn"
+        android:inputType="text"
+        android:text="@string/btn_question_text"
+        android:textColor="@color/btn_text_color"
+        android:textSize="@dimen/Btn_text_size" />
+
+</RelativeLayout>

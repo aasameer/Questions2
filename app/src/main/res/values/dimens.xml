@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_question_weidth">180dp</dimen>
+    <dimen name="btn_question_height">60dp</dimen>
+    <dimen name="btn_rate_width">180dp</dimen>
+    <dimen name="btn_rate_height">60dp</dimen>
+    <dimen name="Btn_text_size">30sp</dimen>
+
+
+
+
+</resources>
